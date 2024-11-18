@@ -428,11 +428,11 @@ function closeNav() {
 
 <center><h4>School Apps</h4></center>
 
-<a href="//clever.com/login"><button><p><img src="https://assets.clever.com/launchpad/892f520bb/favicon.ico?1"></img>Clever</p></button></a>
+<a href="/redirect/clever"><button class="button-29"><p><img src="https://assets.clever.com/launchpad/892f520bb/favicon.ico?1"></img>Clever</p></button></a>
 
-<a href="//login.i-ready.com"><button><p><img src="//login.i-ready.com/favicon.ico" height="32"></img>i-Ready</p></button></a>
+<a href="/redirect/iready"><button class="button-29"><p><img src="//login.i-ready.com/favicon.ico" height="32" width="32"></img>i-Ready</p></button></a>
 
-
+<a href="/redirect/office365?auth=2&home=1"><button class="button-29"><p><img src="https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico" width="32" height="32"></img>Microsoft Office 365</p></button></a>
 
 
 
@@ -527,5 +527,55 @@ window.onclick = function(event) {
 	<script type="text/javascript" src="//gamesuperhot.github.io/js/script.js"></script>
 	<script type="text/javascript" src="//gamesuperhot.github.io/js/custom.js"></script>
     <!--end of all scripts-->
+    
+    
+    <!--!!button style!!-->
+
+<style>
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+</style>
 	  </body>
   </html>
